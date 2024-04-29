@@ -1,5 +1,3 @@
-
-
 #define trig 10
 #define echo 9
 #define button 5
@@ -43,7 +41,7 @@ void loop() {
       if (dis < displus && dis > disminus) {  //example: 100<110 and 100>90
         bl.println(text1);
       } else {
-        bl.println(text); //PROBLEM, PROBLEM, PROBLEM
+        bl.println(text); //PROBLEM
       }
     }
     delay(100);
