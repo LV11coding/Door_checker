@@ -1,7 +1,7 @@
 # Door_checker
 Check if a door is open and send the info via Bluetooth to your device. The sensor detects if a set distance(the distance to your door versus the normal distance with the closed door) is reached and sends a text message to your phone.
 
-Needed components: Arduino(any), Ultrasonic sensor(hc-sr04), Bluetooth module(HC-06/HC-05), Jumper wires
+Needed components: Arduino(any), Ultrasonic sensor(hc-sr04), Bluetooth module(HC-06/HC-05), Jumper wires, button(pin 5) 
 Needed libraries: SoftwareSerial.h
 Needed Software for phone: Bluetooth Terminal(when inside terminal, make sure that "recieve data" is checked)
 
